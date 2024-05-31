@@ -549,7 +549,7 @@ main #project .container {
     align-items: center;
 }
 main #project .container p {
-    margin-right: 100px;
+    margin-right: 10px;
 }
 main #project .container p img {
     width: 100%;
@@ -557,7 +557,7 @@ main #project .container p img {
 main #project .container .info {
     display: flex;
     flex-flow: column nowrap;
-    margin-left: 150px;
+    margin-left: 80px;
     width: 40%;
 }
 main #project .container .info h2 {
