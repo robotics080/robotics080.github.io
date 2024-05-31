@@ -19,7 +19,7 @@ header {
     top: 0;
     left: 0;
     z-index: 999;
-    padding: 70px 100px 0;
+    padding: 20px 100px 0;
     background-color: rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     transition: padding 0.3s;
@@ -29,13 +29,14 @@ header .gnb {
     justify-content: space-between;
     align-items: center;
 }
+
 header .gnb h1 {
-    padding: 20px 0;
+    padding: 5px 0;
 }
 header .gnb h1 a {
     font-weight: 700;
     font-size: 1.563rem;
-    padding: 20px 0;
+    padding: 5px 0;
 }
 header .gnb p {
     font-size: 1.563rem;
@@ -73,6 +74,7 @@ header .gnb nav a::after {
     margin-top: 3px;
     transition: all 0.5s;
 }
+
 /* 모바일 메뉴 */
 header .open_nav {
     display: none;
@@ -102,6 +104,7 @@ header .open_nav span:nth-child(3) {
     top: 20px;
 }
 header .open_nav.active {
+    padding-top: 0px;
 }
 header .open_nav.active span:nth-child(2) {
     width: 0;
@@ -122,6 +125,7 @@ header .m_nav_open {
     background-color: #fff;
     height: 100vh;
     width: 500px;
+    padding-top: 0px;
     transition: all 0.3s;
     z-index: 200;
 }
